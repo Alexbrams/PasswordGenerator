@@ -39,7 +39,7 @@ def main():
 
     def numbers_amount():
         try:
-            n_amount = int(input(f"How many symbols would you like?\n"))
+            n_amount = int(input(f"How many numbers would you like?\n"))
         except ValueError:
             print("Invalid value, try again!")
             return numbers_amount()
